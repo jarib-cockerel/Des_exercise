@@ -28,7 +28,13 @@ let planetFacts = {
 
 let {numPlanets, ... discoveryYears} = planetFacts;
 
-console.log(discoveryYears); //
+console.log(discoveryYears); // {yearNeptuneDiscovered: 1846, yearMarsDiscovered: 1659}
+
+object is returned 
+
+...discoveryYears is the rest which collected what was left after numPlanets: 8
+
+
 
 
 
