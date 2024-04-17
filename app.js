@@ -95,3 +95,23 @@ console.log(third);
 console.log(second);
 console.log(second);
 console.log(first);
+
+/*
+Array Destructing 2
+
+what does the following code return/print?
+
+let [raindrops, whiskers, ...aFewOfMyFavoriteThings] = [
+    "Raindrops on roses",
+    "whiskers on kittens",
+    "Bright copper kettles",
+    "warm woolen mittens",
+    "Brown paper packages tied up with strings"
+]
+
+console.log(raindrops);// "Raindrops on roses"
+console.log(whiskers);// "whiskers on Kittens"
+console.log(aFewOfMyFavoriteThings);// "Bright Copper Kettles", "warm woolen mittens", "Brown paper packages tied up with strings"
+
+
+*/
