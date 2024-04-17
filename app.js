@@ -190,7 +190,7 @@ var arr = [1, 2];
 /*
 raceResults()
 
-raceResutls (['Tom', 'Margaret', 'Allison', 'David','Pierre']);
+raceResults (['Tom', 'Margaret', 'Allison', 'David','Pierre']);
 
 1. write a function called raceResults
 2. accepts a single array argument
