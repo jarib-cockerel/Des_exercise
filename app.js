@@ -123,3 +123,16 @@ let [raindrops, whiskers, ...aFewOfMyFavoriteThings] = [
   "warm woolen mittens",
   "Brown paper packages tied up with strings",
 ];
+
+/*
+Array Destructuring 3
+
+what does the following code return/print
+let numbers = [10,20,30]; 
+[numbers[1], numbers[2]] = [ numbers[2], numbers [1]]
+
+
+console.log(numbers)// [10,20], [20,10]
+
+
+*/
