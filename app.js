@@ -115,3 +115,11 @@ console.log(aFewOfMyFavoriteThings);// "Bright Copper Kettles", "warm woolen mit
 
 
 */
+
+let [raindrops, whiskers, ...aFewOfMyFavoriteThings] = [
+  "Raindrops on roses",
+  "whiskers on kittens",
+  "Bright copper kettles",
+  "warm woolen mittens",
+  "Brown paper packages tied up with strings",
+];
