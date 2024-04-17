@@ -177,8 +177,31 @@ var temp = arr[0];
 arr[0] = arr[1];
 arr[1] = temp;
 
+
+although we have 1,2 in our array the arr of 0 and array of 1 are referencing the position of the arr variable/object
+
+so [arry position 0 [which is 1], array position of 1 [which is 2]] = [array postion of 1[which is 2],[array position of 0 [which is 1]
 */
 
 var arr = [1, 2];
 
 [arr[0], arr[1]] = [arr[1], arr[0]];
+
+/*
+raceResults()
+
+raceResutls (['Tom', 'Margaret', 'Allison', 'David','Pierre']);
+
+1. write a function called raceResults
+2. accepts a single array argument
+3. return object with keys [first, second, ...rest]
+4. write a one line function using arrow function and destructuring 
+
+*/
+
+const raceResults = ([first, second, third, ...rest]) => ({
+  first,
+  second,
+  third,
+  ...rest,
+});
