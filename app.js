@@ -137,7 +137,34 @@ console.log(numbers)// [10,20], [20,10]
 
 */
 
-let numbers = [10, 20, 30];
-[numbers[1], numbers[2]] = [numbers[2], numbers[1]];
+// let numbers = [10, 20, 30];
+// [numbers[1], numbers[2]] = [numbers[2], numbers[1]];
 
-[numbers[1], numbers[2], numbers[3]] = [numbers[3], numbers[2], numbers[1]];
+// [numbers[1], numbers[2], numbers[3]] = [numbers[3], numbers[2], numbers[1]];
+
+/*
+ES5 Assigning Variables to Object Properties
+
+var obj = {
+    numbers: {
+        a: 1,
+        b: 2
+    }
+};
+
+var a = obj.numbers.a;
+var b = obj.numbers.b
+
+
+*/
+
+console.log("ES2015 Object Destructuring");
+
+var obj = {
+  numbers: {
+    a: 1,
+    b: 2,
+  },
+};
+
+const { numbers } = obj;
