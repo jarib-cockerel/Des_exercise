@@ -72,3 +72,22 @@ getUserData({})//Your name is undefined and you like green
 function getUserData({ firstName, favoriteColor = "green" }) {
   return `your name is ${firstName} and you like ${favoriteColor}`;
 }
+
+/*
+Array Deconstructing 1
+
+let [first, second, third] = ["Maya", "Marisa", "Chi"]
+
+
+console.log(first)
+console.log(second)
+console.log(third)
+
+
+*/
+
+let [first, second, third] = ["Maya", "Marisa", "Chi"];
+
+console.log(first);
+console.log(second);
+console.log(third);
